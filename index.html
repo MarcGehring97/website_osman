@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Osman Özel - Photographer</title>
+    <style>
+      /* CSS for the slideshow container */
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+      /* Additional CSS for styling the title and pages */
+      .title {
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 50px;
+      }
+      .nav-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+      }
+      .nav-bar a {
+        text-decoration: none;
+        color: black;
+        margin: 0 10px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      /* Hide the pages by default */
+      .images, .moving-images, .info {
+        display: none;
+      }
+      /* Additional CSS for styling the pages */
+      .images img, .moving-images video {
+        width: 100%;
+        margin-bottom: 50px;
+      }
+      /* CSS for each individual slide */
+      .slideshow-container .slides {
+        display: none;
+      }
+      /* CSS for the "previous" and "next" buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      /* Additional CSS */
+    </style>
+  </head>
+  <body>
+    <div class="title">Osman Özel</div>
+    <div class="nav-bar">
+      <a href="#images">Images</a>
+      <a href="moving_images.html">Moving Images</a>
+      <a href="info.html">Info</a>
+    </div>
+    <div class="images">
+      <img src="image1.jpg">
+      <img src="image2.jpg">
+      <img src="image3.jpg">
+    </div>
+    <div class="moving-images">
+      <video src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" controls></video>
+      <video src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" controls></video>
+    </div>
+    <div class="info">
+      <p>Osman Özel is a professional photographer with over 10 years of experience in the field. He specializes in nature, landscape, and portrait photography.</p>
+    </div>
+    <div class="slideshow-container">
+      <div class="slides fade">
+        <img src="image1.jpg" style="width:100%">
+      </div>
+    </div>
+        <div class="slides fade">
+            <img src="image3.jpg" style="width:100%">
+        </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+ 
+        <script>
+            var slideIndex = 0;
+            showSlides();
+        
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("slides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                slides[slideIndex-1].style.display = "block";  
+                setTimeout(showSlides, 3000); // Change image every 3 seconds
+            }
+        </script>
+        
