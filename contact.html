@@ -55,10 +55,24 @@
             <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
 
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li><a href="index.html">Home</a></li>
-                <li>
+                <a href="index.html">Home</a>
+                <li class="has-children">
                   <a href="gallery.html">Gallery</a>
-                  
+                  <ul class="dropdown">
+                    <li><a href="germany.html">Germany</a></li>
+                    <li><a href="turkey.html">Turkey</a></li>
+                    <li><a href="france.html">france.html</a></li>
+                    <li><a href="sweden.html">sweden.html</a></li>
+                    
+                    <li class="has-children">
+                      <a href="#">Sub Menu</a>
+                      <ul class="dropdown">
+                        <li><a href="#">Menu One</a></li>
+                        <li><a href="#">Menu Two</a></li>
+                        <li><a href="#">Menu Three</a></li>
+                      </ul>
+                    </li>
+                  </ul>
                 </li>
                 
                 <li><a href="about.html">About</a></li>
@@ -72,12 +86,12 @@
               <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
                 
                 <li>
-                  <a href="https://www.instagram.com/ozel_osman/" class="pl-3 pr-3" target="_blank"><span class="icon-instagram"></span></a>
+                  <a href="https://www.instagram.com/portraits_of_families/" class="pl-3 pr-3" target="_blank"><span class="icon-instagram"></span></a>
                 </li>
                 <li>
-                  <a href="https://vimeo.com/user4005746" class="pl-3 pr-3"><span class="icon-vimeo-square" target="_blank"></span></a>
+                  <a href="#" class="pl-3 pr-3"><span class="icon-vimeo-square" target="_blank"></span></a>
                 </li><li>
-                  <a href="https://www.osmanozel.com/" class="pl-3 pr-3"><span class="icon-accessibility" target="_blank"></span></a>
+                  <a href="#" class="pl-3 pr-3"><span class="icon-facebook" target="_blank"></span></a>
                 </li>
               </ul>
             </div>
@@ -110,13 +124,13 @@
         
         <div class="row">
           <div class="col-lg-8 mb-5">
-            <form action="https://formsubmit.co/ozelosm@gmail.com" method="POST">
+            <form action="https://formsubmit.co/info@portraitoffamily.com" method="POST">
 
 
               <div class="row form-group">
                 <div class="col-md-12">
                   <label class="text-white" for="name">Name</label>
-                  <input type="text" id="name" class="form-control">
+                  <input type="text" id="name" name = "name" class="form-control">
                 </div>
                 
               </div>
@@ -125,7 +139,7 @@
 
                 <div class="col-md-12">
                   <label class="text-white" for="email">Email</label> 
-                  <input type="email" id="email" class="form-control">
+                  <input type="email" id="email" name = "email" class="form-control">
                 </div>
               </div>
 
@@ -156,7 +170,7 @@
               <p class="mb-4"><a href="#" onclick="return false;">+49 17635756485</a></p>
 
               <p class="mb-0 font-weight-bold text-white">Email Address</p>
-              <p class="mb-0"><a href="mailto:ozelosm@gmail.com">ozelosm@gmail.com</a></p>
+              <p class="mb-0"><a href="mailto:info@portraitoffamily.com">info@portraitoffamily.com</a></p>
 
             </div>
 
