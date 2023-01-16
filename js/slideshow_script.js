@@ -2,7 +2,7 @@ $(document).ready(function() {
     var slideIndex = 1;
   
     function showSlides(n) {
-      var slides = $(".mySlides");
+      var slides = $(".image-wrap-2");
       var i;
   
       if (n > slides.length) {
