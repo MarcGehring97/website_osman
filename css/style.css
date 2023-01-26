@@ -59,11 +59,12 @@ a {
     -webkit-box-shadow: none;
     box-shadow: none; }
   .btn.btn-black {
-    color: #fff;
+    /*!*/
+    color: #777;
     background-color: #000; }
     .btn.btn-black:hover {
-      color: #000;
-      background-color: #fff; }
+      color: #fff;
+      /*background-color: #fff;*/ }
 
 .line-height-1 {
   line-height: 1 !important; }
@@ -320,7 +321,7 @@ a {
           list-style: none;
           padding: 0;
           margin: 0;
-          min-width: 250px; }
+          min-width: 260px; }
           /*!*/
           .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a {
             padding: 9px 20px;
@@ -353,10 +354,10 @@ a {
 
 /*!*/
 #gallery {
-  max-width: 150px !important;
+  max-width: 175px !important;
 }
 #gallery > li > a:hover {
-  max-width: 150px !important;
+  max-width: 175px !important;
 }
 
 .site-menu[data-class="social"] a {
