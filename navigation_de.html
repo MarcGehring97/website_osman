@@ -1,0 +1,52 @@
+<nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
+    <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+        <li><a href="index_de.html">Home</a></li>
+        <li class="has-children">
+        <a href="archive_de.html">Archiv</a>
+        <ul class="dropdown">
+            <li><a href="arc_turkey_de.html">Entdeckt in der Türkei 2022</a></li>
+            <li><a href="arc_germany_de.html">Entdeckt in Deutschland 2023</a></li>
+        </ul>
+        </li>
+        <!--
+        <li class="has-children">
+        <a href="gallery_de.html">Galerie</a>
+        <ul class="dropdown" id="gallery">
+            <li><a href="gal_turkey_de.html">Türkei 2022</a></li>
+            <li><a href="gal_germany_de.html">Deutschland 2023</a></li>
+        </ul>
+        -->
+        </li>
+        <li><a href="about_de.html">Über Uns</a></li>
+        <li><a href="requests_de.html">Anfragen</a></li>
+        <!--
+        <li class="has-children">
+        <a href="#">Sub Menu</a>
+        <ul class="dropdown">
+            <li><a href="#">Menu One</a></li>
+            <li><a href="#">Menu Two</a></li>
+            <li><a href="#">Menu Three</a></li>
+        </ul>
+        </li>
+        -->
+    </ul>
+</nav>
+
+<script>
+    $(document).ready(function() {
+      var currentPage = location.pathname;
+      var currentFile = currentPage.substring(currentPage.lastIndexOf('/') + 1);
+      $("#navigation a").each(function() {
+        var link = $(this).attr("href");
+        var file = link.substring(link.lastIndexOf('/') + 1);
+        if (currentFile === file) {
+            console.log(currentFile)
+            if (currentFile == "arc_turkey_de.html" || currentFile == "arc_germany_de.html") {
+                $(this).parent().parent().parent().addClass("active");
+            } else {
+                $(this).parent().addClass("active");
+            }
+        }
+      });
+    });
+  </script>

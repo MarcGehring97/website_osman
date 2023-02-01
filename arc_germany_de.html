@@ -27,7 +27,12 @@
   <link rel="stylesheet" href="css/aos.css">
 
   <link rel="stylesheet" href="css/style.css">
-
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script>
+    $(function(){
+      $("#navigation").load("navigation_de.html"); 
+    });
+  </script>
 </head>
 <body>
 
@@ -54,37 +59,7 @@
             <h1 class="mb-0"><a href="index_de.html" class="text-white h2 mb-0">Portraits of Families</a></h1>
           </div>
           <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
-            <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
-              <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li><a href="index_de.html">Home</a></li>
-                <li class="has-children active">
-                  <a href="archive_de.html">Archiv</a>
-                  <ul class="dropdown">
-                    <li><a href="arc_turkey_de.html">Entdeckt in der Türkei 2022</a></li>
-                    <li><a href="arc_germany_de.html">Entdeckt in Deutschland 2023</a></li>
-                  </ul>
-                </li>
-                <li class="has-children">
-                  <a href="gallery_de.html">Galerie</a>
-                  <ul class="dropdown" id="gallery">
-                    <li><a href="gal_turkey_de.html">Türkei 2022</a></li>
-                    <li><a href="gal_germany_de.html">Deutschland 2023</a></li>
-                  </ul>
-                </li>
-                <li><a href="about_de.html">Über Uns</a></li>
-                <li><a href="requests_de.html">Anfragen</a></li>
-                <!--
-                <li class="has-children">
-                  <a href="#">Sub Menu</a>
-                  <ul class="dropdown">
-                    <li><a href="#">Menu One</a></li>
-                    <li><a href="#">Menu Two</a></li>
-                    <li><a href="#">Menu Three</a></li>
-                  </ul>
-                </li>
-                -->
-              </ul>
-            </nav>
+            <div id="navigation"></div>
           </div>
 
           <div class="col-6 col-xl-2 text-right" data-aos="fade-down">
@@ -129,139 +104,139 @@
         </div>
         <div class="row" id="lightgallery">
           
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/10.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/10.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/10.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/06.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/06.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/06.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/26.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/26.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/26.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/30.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/30.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/30.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/31.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/31.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/31.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/27.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/27.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/27.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/14.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/14.jpg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/14.jpg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/20.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/20.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/20.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/01.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/01.jpg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/01.jpg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/17.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/17.jpg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/17.jpg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/03.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/03.jpg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/03.jpg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/16.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/16.jpg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/16.jpg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/12.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/12.jpg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/12.jpg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/07.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/07.jpg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/07.jpg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/13.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/13.jpg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/13.jpg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/11.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/11.jpg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/11.jpg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/35.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/35.jpg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/35.jpg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/22.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/22.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/22.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/08.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/08.jpg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/08.jpg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/34.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/34.jpg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/34.jpg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/02.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/02.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/02.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/15.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/15.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/15.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/18.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/18.jpg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/18.jpg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/19.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/19.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/19.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/23.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/23.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/23.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/28.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/28.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/28.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/04.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/04.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/04.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/32.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/32.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/32.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/24.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/24.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/24.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/09.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/09.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/09.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/25.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/25.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/25.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/33.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/33.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/33.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/05.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/05.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/05.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/29.jpeg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="images/arc_germany/29.jpeg" data-sub-html="<h4></h4><p></p>">
             <a href="#"><img src="images/arc_germany/29.jpeg" alt="IMage" class="img-fluid"></a>
           </div>
         

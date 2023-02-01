@@ -27,6 +27,12 @@
   <link rel="stylesheet" href="css/aos.css">
 
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script>
+    $(function(){
+      $("#navigation").load("navigation_de.html"); 
+    });
+  </script>
 
 </head>
 <body>
@@ -54,37 +60,7 @@
             <h1 class="mb-0"><a href="index_de.html" class="text-white h2 mb-0">Portraits of Families</a></h1>
           </div>
           <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
-            <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
-              <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li><a href="index_de.html">Home</a></li>
-                <li class="has-children">
-                  <a href="archive_de.html">Archiv</a>
-                  <ul class="dropdown">
-                    <li><a href="arc_turkey_de.html">Entdeckt in der Türkei 2022</a></li>
-                    <li><a href="arc_germany_de.html">Entdeckt in Deutschland 2023</a></li>
-                  </ul>
-                </li>
-                <li class="has-children">
-                  <a href="gallery_de.html">Galerie</a>
-                  <ul class="dropdown" id="gallery">
-                    <li><a href="gal_turkey_de.html">Türkei 2022</a></li>
-                    <li><a href="gal_germany_de.html">Deutschland 2023</a></li>
-                  </ul>
-                </li>
-                <li><a href="about_de.html">Über Uns</a></li>
-                <li class="active"><a href="requests_de.html">Anfragen</a></li>
-                <!--
-                <li class="has-children">
-                  <a href="#">Sub Menu</a>
-                  <ul class="dropdown">
-                    <li><a href="#">Menu One</a></li>
-                    <li><a href="#">Menu Two</a></li>
-                    <li><a href="#">Menu Three</a></li>
-                  </ul>
-                </li>
-                -->
-              </ul>
-            </nav>
+            <div id="navigation"></div>
           </div>
 
           <div class="col-6 col-xl-2 text-right" data-aos="fade-down">
