@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Gallery - Portraits of Families</title>
+  <title>Homepage - Portraits of Families</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -28,6 +28,8 @@
 
   <link rel="stylesheet" href="css/style.css">
 
+  <link rel="stylesheet" href="css/slideshow_css.css">
+
 </head>
 <body>
 
@@ -43,8 +45,6 @@
     </div>
     
 
-
-
     <header class="site-navbar py-3" role="banner">
 
       <div class="container-fluid">
@@ -56,8 +56,8 @@
           <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
             <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li><a href="index.html">Home</a></li>
-                <li class="has-children active">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="has-children">
                   <a href="archive.html">Archive</a>
                   <ul class="dropdown">
                     <li><a href="arc_turkey.html">Discovered in Turkey 2022</a></li>
@@ -113,23 +113,111 @@
 
 
 
-    <div class="site-section"  data-aos="fade">
-      <div class="container-fluid">
+    <div class="container-fluid" data-aos="fade" data-aos-delay="500">
+      <div class="row">
+        <div class="col-lg-8 offset-md-2">
+          <div class="slideshow-container">
 
-        <div class="row justify-content-center">
-
-          <div class="col-md-7">
-            <div class="row mb-5">
-              <div class="col-12 ">
-                <h2 class="site-section-heading text-center">Portrait Archive</h2>
+            <div class="image-wrap-2">
+              <div class="image-info">
+                <h2 class="mb-3"></h2>
+                <a href="gallery.html" class="btn btn-outline-white py-2 px-4">More Photos</a>
               </div>
+              <img src="images/arc_germany/01.jpg" alt="Image" class="img-fluid">
             </div>
-          </div>
 
-        </div>
-        <div class="row" id="lightgallery">
+            <div class="image-wrap-2">
+              <div class="image-info">
+                <h2 class="mb-3"></h2>
+                <a href="gallery.html" class="btn btn-outline-white py-2 px-4">More Photos</a>
+              </div>
+              <img src="images/arc_germany/01.jpeg" alt="Image" class="img-fluid">
+            </div>
+
+            <div class="image-wrap-2">
+              <div class="image-info">
+                <h2 class="mb-3"></h2>
+                <a href="gallery.html" class="btn btn-outline-white py-2 px-4">More Photos</a>
+              </div>
+              <img src="images/arc_germany/03.jpg" alt="Image" class="img-fluid">
+            </div>
+
+            <div class="image-wrap-2">
+              <div class="image-info">
+                <h2 class="mb-3"></h2>
+                <a href="gallery.html" class="btn btn-outline-white py-2 px-4">More Photos</a>
+              </div>
+              <img src="images/arc_germany/04.jpeg" alt="Image" class="img-fluid">
+            </div>
+
+            <div class="image-wrap-2">
+              <div class="image-info">
+                <h2 class="mb-3"></h2>
+                <a href="gallery.html" class="btn btn-outline-white py-2 px-4">More Photos</a>
+              </div>
+              <img src="images/arc_turkey/a1.jpg" alt="Image" class="img-fluid">
+            </div>
+
+            <div class="image-wrap-2">
+              <div class="image-info">
+                <h2 class="mb-3"></h2>
+                <a href="gallery.html" class="btn btn-outline-white py-2 px-4">More Photos</a>
+              </div>
+              <img src="images/arc_turkey/a2.jpg" alt="Image" class="img-fluid">
+            </div>
+
+            <div class="image-wrap-2">
+              <div class="image-info">
+                <h2 class="mb-3"></h2>
+                <a href="gallery.html" class="btn btn-outline-white py-2 px-4">More Photos</a>
+              </div>
+              <img src="images/arc_turkey/a3.jpg" alt="Image" class="img-fluid">
+            </div>
+
+            <div class="image-wrap-2">
+              <div class="image-info">
+                <h2 class="mb-3"></h2>
+                <a href="gallery.html" class="btn btn-outline-white py-2 px-4">More Photos</a>
+              </div>
+              <img src="images/arc_turkey/a4.jpg" alt="Image" class="img-fluid">
+            </div>
+
+
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
           
-        </div>
+          <!--
+
+          <div class="slideshow-container">
+            <div class="image-wrap-2">
+              <div class="image-info">
+                <h2 class="mb-3"></h2>
+                <a href="gallery.html" class="btn btn-outline-white py-2 px-4">More Photos</a>
+              </div>
+              <img src="images/image1.jpg" alt="Image" class="img-fluid">
+            </div>
+            <div class="image-wrap-2">
+              <div class="image-info">
+                <h2 class="mb-3"></h2>
+                <a href="gallery.html" class="btn btn-outline-white py-2 px-4">More Photos</a>
+              </div>
+              <img src="images/image2.jpg" alt="Image" class="img-fluid">
+            </div>
+            <div class="image-wrap-2">
+              <div class="image-info">
+                <h2 class="mb-3"></h2>
+                <a href="gallery.html" class="btn btn-outline-white py-2 px-4">More Photos</a>
+              </div>
+              <img src="images/image3.jpg" alt="Image" class="img-fluid">
+            </div>
+            
+          </div>
+          <br>
+          -->
+
       </div>
     </div>
 
@@ -138,7 +226,7 @@
         <div class="row justify-content-center">
           <div class="col-md-12">
             <p>
-              <a href="archive_de.html" class="btn btn-black">DE</a>
+              <a href="index_de.html" class="btn btn-black">DE</a>
             </p>
           </div>
           <div class="col-md-12" style="font-size:10px">
@@ -150,13 +238,11 @@
       </div>
     </div>
 
-    
-
-    
-    
   </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/slideshow_script.js"></script>
+  <script src="js/automatic_slideshow_script.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
   <script src="js/popper.min.js"></script>
