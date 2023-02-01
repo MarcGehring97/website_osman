@@ -1,3 +1,4 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="css/style.css">
 <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
     <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
@@ -35,19 +36,17 @@
 
 <script>
     $(document).ready(function() {
-      var currentPage = location.pathname;
-      var currentFile = currentPage.substring(currentPage.lastIndexOf('/') + 1);
-      $("#navigation a").each(function() {
-        var link = $(this).attr("href");
-        var file = link.substring(link.lastIndexOf('/') + 1);
-        if (currentFile === file) {
-            console.log(currentFile)
-            if (currentFile == "arc_turkey_de.html" || currentFile == "arc_germany_de.html") {
-                $(this).parent().parent().parent().addClass("active");
-            } else {
-                $(this).parent().addClass("active");
+        var currentPage = location.pathname.substring(location.pathname.lastIndexOf('/') + 1);
+        $("#navigation a").each(function() {
+            var link = $(this).attr("href");
+            if (currentPage === link) {
+                console.log(currentPage)
+                if (currentPage == "arc_turkey_de.html" || currentPage == "arc_germany_de.html") {
+                    $(this).parent().parent().parent().addClass("active");
+                } else {
+                    $(this).parent().addClass("active");
+                }
             }
-        }
-      });
+        });
     });
   </script>
