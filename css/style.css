@@ -50,7 +50,7 @@ a {
   overflow: hidden; }
   .offcanvas-menu .site-wrap:before {
     opacity: 1;
-    visibility: visible; }
+    }
 
 .btn {
   border-radius: 0; }

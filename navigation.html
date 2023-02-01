@@ -33,20 +33,20 @@
     -->
     </ul>
 </nav>
-
 <script>
     $(document).ready(function() {
-		var currentPage = location.pathname.substring(location.pathname.lastIndexOf('/') + 1);
-		$("#navigation a").each(function() {
-			var link = $(this).attr("href");
-			if (currentPage === link) {
-				console.log(currentPage)
-				if (currentPage == "arc_turkey.html" || currentPage == "arc_germany.html") {
-					$(this).parent().parent().parent().addClass("active");
-				} else {
-					$(this).parent().addClass("active");
-				}
-			}
-		  });
-	  });
-  </script>
+        var currentPage = location.pathname.substring(location.pathname.lastIndexOf('/') + 1);
+        $("#navigation a").each(function() {
+            var link = $(this).attr("href");
+            if (currentPage === link) {
+                console.log(currentPage)
+                if (currentPage == "arc_turkey.html" || currentPage == "arc_germany.html") {
+                    $(this).parent().parent().parent().addClass("active");
+                } else {
+                    $(this).parent().addClass("active");
+                }
+            }
+        });
+    });
+</script>
+<script src="js/main.js"></script>
